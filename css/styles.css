@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #EAB8B9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+#nav-items {
+    display: flex;
+    gap: 15px;
+}
+
+/* .book {
+    color: black;
+    font-size: 15px;
+} */
+
+.list-item {
+    list-style-type: none;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header {
+    background-image: url(../assets/spa2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+
+.landing-text {
+    width: 50%;
+    margin-left: 15%;
+    margin-top: 7%;
+
+}
+
+.landing-text h1 {
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+
+.landing-text p {
+    margin-bottom: 1em;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.book-button {
+    padding: 15px;
+    border-radius: 30px;
+    width: 20%;
+    background-color: #EAB8B9;
+    border-color: white;
+    border-style: solid;
+}
+
+.landing-text button a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.first-page {
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+    margin-top: 2em;
+}
+
+.first-page-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+
+}
+
+.first-page-flex h2 {
+    margin-bottom: 1em;
+}
+
+.first-page-flex-p1 {
+    font-weight: bold;
+    color: rgb(43, 48, 48);
+    margin-bottom: 0.8em;
+}
+
+.first-page-img1 {
+    width: 40%;
+    margin-right: 2em;
+}
+
+.first-page-img2 {
+    width: 30%;
+}
+
+.first-page-img1 img {
+    width: 100%;
+}
+
+.first-page-img2 img {
+    width: 100%;
+}
+
+
+
+.our-services {
+    width: 100%;
+
+}
+
+.our-services h1 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.our-services-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    padding: 5px;
+
+}
+
+.our-services-grid img {
+    width: 100%;
+}
+
+.our-services-grid-p1 {
+    margin-top: 1em;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0.8em;
+}
+
+.our-services-grid-p2 {
+    color: darkslategrey;
+    text-align: center;
+}
+
+.discount-info {
+    background-color: #EDBFC1;
+    /* height:50vh; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.discount-info h1 {
+    margin-bottom: 0.6em;
+    margin-top: 1em;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.discount-info p {
+    margin-bottom: 0.6em;
+}
+
+.book-button2 {
+    padding: 15px;
+    border-radius: 30px;
+    width: 35%;
+    background-color: #eab8b9;
+    border: solid;
+    border-color: white;
+}
+
+.book-button2 a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.spa-features {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
+        url(../assets/spa9.jpg);
+    background-size: cover;
+}
+
+.spa-features-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+
+.spa-features-div {
+    margin-top: 3em;
+}
+
+.spa-features-div h1 {
+    margin-top: 7%;
+    margin-bottom: 1em;
+    margin-left: 15%;
+    color: white;
+}
+
+.spa-features-obj {
+    border-radius: 30px;
+    border: rgb(182, 175, 175), 1px, solid;
+    padding: 30px;
+    height: 170px;
+    gap: 8px;
+    margin-right: 15px;
+    margin-bottom: 1em;
+
+}
+
+.spa-features-obj h4 {
+    margin-top: 4em;
+    margin-bottom: 0.5em;
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+.spa-features-obj p {
+    color: rgb(182, 175, 175);
+}
+
+footer {
+    padding:5px;
+    height: 100vh;
+    background-color: #EAB8B9;
+
+}
+
+footer h1 {
+
+    font-size: 40px;
+    margin-bottom: 1em;
+    text-align: center;
+    margin-top:20px;
+
+
+}
