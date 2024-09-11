@@ -29,7 +29,13 @@ nav {
     gap: 15px;
     width:70%;
 }
-
+.logo{
+    
+    width:3em;
+    height:3em;
+    background-image: url(../assets/logo.png);
+    background-size:cover;
+}
 /* .book {
     color: black;
     font-size: 15px;
@@ -62,7 +68,7 @@ header {
     width: 50%;
     margin-left: 15%;
     /* margin-top: 7%; */
-    padding-top:70px;
+    padding-top:10em;
 
 }
 
