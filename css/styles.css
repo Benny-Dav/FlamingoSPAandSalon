@@ -245,8 +245,8 @@ header {
 footer {
     padding:5px;
     height: 100vh;
-    background-color: #EAB8B9;
-
+    background-color: #EAB8B9; 
+    
 }
 
 footer h1 {
@@ -256,5 +256,57 @@ footer h1 {
     text-align: center;
     margin-top:20px;
 
+}
+
+.footer-link-div{
+    width:40vw;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between; 
+    align-items:center;
+    margin-top: 10em;
+    
+}
+
+.footer-link-div a{
+    margin-right:30px;
+    font-weight:200;
+    font-size:30px;
+    text-decoration:none;
+    color:rgb(238, 227, 227);   
+    
+}
+
+.footer-icons-div{
+    width:20vw;
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:3em;
+}
+.footer-icons-div a{
+    margin-right:30px;
 
 }
+
+.footer-line{
+    border:2px dashed rgb(238, 227, 227);
+    margin:auto;
+    margin-top:3em;
+    margin-bottom: 2em;
+    width:70vw;
+    
+}
+footer p{
+    text-align:center;
+    color:rgb(238, 227, 227);
+    margin-top:1em;
+    font-size:20px;
+    font-weight:bolder;
+}
+
+
+
