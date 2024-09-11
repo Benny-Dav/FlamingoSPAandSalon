@@ -4,16 +4,30 @@
 }
 
 nav {
-    background-color: #EAB8B9;
+    
+    /* background-color: #eab8b9; */
+    background-color:white; 
+    
     display: flex;
+    flex-direction:row;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
+    padding: 15px;
+    height:5%;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    border-bottom:solid #EAB8B9;
 }
 
 #nav-items {
     display: flex;
+    flex-direction:row;
+    justify-content:space-between;
     gap: 15px;
+    width:70%;
 }
 
 /* .book {
@@ -28,22 +42,27 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
 header {
+    
     background-image: url(../assets/spa2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 90vh;
+    /* padding-top:30px; */
+    
 }
 
 .landing-text {
+    
     width: 50%;
     margin-left: 15%;
-    margin-top: 7%;
+    /* margin-top: 7%; */
+    padding-top:70px;
 
 }
 
@@ -55,7 +74,9 @@ header {
 .landing-text p {
     margin-bottom: 1em;
     font-size: medium;
-    font-weight: bold;
+    /* font-weight: bold; */
+    width:40%;
+    line-height: 2em;
 }
 
 .book-button {
@@ -65,12 +86,14 @@ header {
     background-color: #EAB8B9;
     border-color: white;
     border-style: solid;
+    margin-top:3em;
 }
 
-.landing-text button a {
+.book-button a {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    font-weight:bold;
 }
 
 .first-page {
@@ -85,8 +108,8 @@ header {
     justify-content: center;
     align-items: center;
     padding: 1em;
-
-
+    /* height:100vh; */
+    
 }
 
 .first-page-flex h2 {
@@ -116,8 +139,6 @@ header {
     width: 100%;
 }
 
-
-
 .our-services {
     width: 100%;
 
@@ -126,6 +147,7 @@ header {
 .our-services h1 {
     text-align: center;
     margin-bottom: 2em;
+    margin-top:1em;
 }
 
 .our-services-grid {
@@ -154,18 +176,24 @@ header {
     text-align: center;
 }
 
+.spa-features-and-discount{
+    height:100vh;
+}
+
 .discount-info {
     background-color: #EDBFC1;
-    /* height:50vh; */
     text-align: center;
     display: flex;
-    justify-content: center;
+    flex-direction:column;
+    justify-content: space;
     align-items: center;
     margin-top: 2em;
+    margin-bottom:5%;
+    height:40%;
 }
 
 .discount-info h1 {
-    margin-bottom: 0.6em;
+    /* margin-bottom: 0.6em; */
     margin-top: 1em;
     color: white;
     font-size: 40px;
@@ -173,8 +201,9 @@ header {
 }
 
 .discount-info p {
+    margin-top:0.5em;
     margin-bottom: 0.6em;
-}
+} 
 
 .book-button2 {
     padding: 15px;
@@ -183,6 +212,7 @@ header {
     background-color: #eab8b9;
     border: solid;
     border-color: white;
+    margin-bottom:2em;
 }
 
 .book-button2 a {
@@ -192,32 +222,50 @@ header {
     font-weight: bold;
 }
 
-.spa-features {
-    height: 100vh;
+ /* .spa-features-div {
+    height:60vh;
+    margin-top: 3em;
+}  */
+
+.spa-features-div {
+    /* margin-top:2em; */
+    padding:5px;
+    height: 55%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
         url(../assets/spa9.jpg);
     background-size: cover;
+    
 }
 
-.spa-features-flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin: auto;
-}
 
-.spa-features-div {
-    margin-top: 3em;
-}
 
-.spa-features-div h1 {
-    margin-top: 7%;
+/* .spa-features-div h1 {
+    margin-top:2em;
     margin-bottom: 1em;
     margin-left: 15%;
     color: white;
+} */
+.spa-features-div-h1{
+    
+    margin-left:17%;
+    color:white;
+    margin-top:1em;
+    margin-bottom:0.8em;
+
+    
 }
+.spa-features-flex {
+    /* padding:5px; */
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height:80%;
+}
+
 
 .spa-features-obj {
     border-radius: 30px;
@@ -361,12 +409,11 @@ footer p{
     font-weight:bold;
  }
 
- /* .client{
-    height:50px;
-    width:50px;
-    border-radius:50px;
-    background-color:white;
-    border:none;
-    margin-bottom:2em;
+ .client{
     
- } */
+    height:25px;
+    width:25px;
+    border-radius:50%;
+    background-color: black;
+
+ }
