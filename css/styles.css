@@ -114,18 +114,20 @@ header {
 
 .book-button {
     padding: 15px;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     width: 20%;
-    background-color: #EAB8B9;
-    border-color: white;
-    border-style: solid;
+    /* background-color: #EAB8B9; */
+    background-color:white;
+    /* border-color: black; */
+    border:3px solid #EAB8B9;
+    /* background:none; */
     margin-top: 3em;
 }
 
 .book-button a {
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -181,6 +183,14 @@ header {
     text-align: center;
     margin-bottom: 2em;
     margin-top: 1em;
+}
+
+.working-hours{
+     text-align:center;
+}
+
+span{
+    font-style:italic;
 }
 
 .our-services-grid {
@@ -267,6 +277,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
             rgba(0, 0, 0, 0.6)),
         url(../assets/spa9.jpg);
+        background-attachment:fixed;
     background-size: cover;
 
 }
