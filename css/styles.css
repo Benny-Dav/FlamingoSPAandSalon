@@ -187,10 +187,14 @@ header {
 
 .working-hours{
      text-align:center;
+     margin-bottom:0.5em;
+     color:darkslategray;
+     margin-bottom:1em;
 }
 
 span{
     font-style:italic;
+    
 }
 
 .our-services-grid {
